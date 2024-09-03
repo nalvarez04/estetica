@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Montserrat", serif;
+	background-color:#f7f7f7;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	color: #023047;
+}
+/*contendor login inicio*/
+.contenedor{
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	/*background:#ddd;*/
+	border: 1px solid #219ebc;
+	margin-top: 50px;
+	border-radius: 40px;
+	margin-bottom: 40px;
+}
+.contenedor form{
+	padding: 30px 30px;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+img{
+	width: 100px;
+	border: 1px solid #ddd;
+	border-radius: 40%;
+	/*text-align: center;*/
+	/*margin: 0 auto;*/
+	/*display: inline-block;*/
+}
+.campo{
+	font-family: "Montserrat", serif;
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid #219ebc;
+	margin-bottom: 10px;
+}
+.boton{
+	font-family: "Montserrat", serif;
+	margin-top: 20px;
+	width: 100%;
+	padding: 12px;
+	color: #fff;
+	font-weight: bolder;
+	background-color: #219ebc;
+	border-radius: 5px;
+	border: 1px solid #023047;
+	margin-bottom: 30px;
+}
+.boton:hover{
+	background-color: #8ecae6;
+	color: #023047;
+}
+.contenedor form a{
+	/*margin-top: 30px;*/
+    padding-right: 60px;
+    font-size: 13px;
+}
+/*Contenedor login fin*/
+
+/*inicio main estudiante*/
+table{
+	width: 90%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid #023047;
+}
+table th{
+	border: 1px solid #023047;
+	padding: 16px;
+	background-color: #023047;
+	color: #fff;
+}
+table tr,td{
+	border: 1px solid #023047;
+	padding: 8px;
+	text-align: center;
+}
+td input[type="button"]{
+	padding: 8px;
+	background-color: #219ebc;
+	color: #fff;
+	width: 80%;
+	border-radius: 8px;
+	border:1px solid #023047;
+	font-weight: bolder;
+}
+table tr:hover{
+	background-color: #8ecae6;
+}
+td input[type="button"]:hover{
+	background-color: #fb8500;
+	color: #fff;
+}
+.paginacion{
+	margin: 30px;
+	text-align: center;
+	word-spacing: 7px;
+	letter-spacing: 1px;
+	background-color: #023047;
+	padding: 8px;
+}
+.paginacion a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.salir{
+	/*display:inline-block;*/
+	text-align: center;
+}
